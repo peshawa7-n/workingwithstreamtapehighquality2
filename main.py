@@ -6,9 +6,9 @@ from telegram import Update
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
 
 # ====== CONFIGURATION ======
-TELEGRAM_BOT_TOKEN = "YOUR_BOT_TOKEN"
-STREAMTAPE_API_USER = "YOUR_STREAMTAPE_USER"
-STREAMTAPE_API_KEY = "YOUR_STREAMTAPE_API_KEY"
+TELEGRAM_BOT_TOKEN = "BOT_TOKEN"
+STREAMTAPE_API_USER = "STREAMTAPE_API_USERNAME"
+STREAMTAPE_API_KEY = "STREAMTAPE_API_KEY"
 DOWNLOAD_FOLDER = "/tmp/downloads"
 # ===========================
 
